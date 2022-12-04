@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Web Quiz</title>
+        <meta name ="viewport" content = "width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href ="./assets/style.css">
+    </head>
+    <body>
+        <!--main outer div-->
+        <div class = "outer-container">
+            
+            <!--top bar section-->
+            <div class = "top-bar">
+                <button id = "view">View Highscores</button>
+                <p id ="timer"> Timer: 00:00 </p>
+                
+            </div>
+            
+            <!--inner div-->
+            <div class = "inner-container">
+
+                <!--main header/quiz intro-->
+                <header class = "quiz-intro">
+                    <h1>Welcome to the quiz</h1>
+                    <p>To get started with the quiz, start the quiz!</p>
+                    <button id = "start">Start Quiz!</button>
+
+
+            
+                </header>
+
+                    
+                <!--main quiz content-->
+                <div id = "quiz-content">
+                    <p id = "question"></p>
+                    <div id = "choices">
+                        <button id = "a"></button>
+                        <button id = "b"></button>
+                        <button id = "c"></button>
+                        <button id = "d"></button>
+                    </div>
+                    <p id ="feedback"></p>
+
+                </div>
+                <div id = "quiz-done">
+                    <h1>All done</h1>
+                    <p id = "result"></p>
+                    <p>Enter initials for scoreboard</p>
+                    <input type = "text" id = "initials">
+                    <button id ="submit">Submit</button>
+                </div>
+                <div id ="scoreboard">
+                    <h1>High scores</h1>
+                    <div id ="scores"></div>
+                    <button id = "go-back">Go Back</button>
+                    <button id = "clear">Clear High Scores</button>
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+<script src="./assets/script.js" >
+</script>
+    
+    </body>
+</html>
