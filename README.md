@@ -26,12 +26,12 @@ by keeping score on all quizzes.
 
 ## Usage
 
-Once you open up the deployed link, you will arive at the home page with the title of "Welcome to the Quiz", see screenshot in ![alt text](./assets/images/home-page.png)
+Once you open up the deployed link, you will arive at the home page with the title of "Welcome to the Quiz", see screenshot in ![](./assets/images/home-page.png)
 
     1. If you are ready to start the quiz, press the Start Quiz button, which will then direct you to the first question of the quiz. Additionally, once you start the quiz, the timer in the top right corner will start ticking down, and for any questions you answer incorrectly, 5 seconds will be deducted from the timer. 
 
     2. Once you answer all four questions, or time expires, you will be directed to the "All done" screen where it will read you our score, and give you the option to type in your initials and record 
-    what your score was. See screenshot in (./assets/images/all-done-screen.png)
+    what your score was. See screenshot in ./assets/images/all-done-screen.png)
 
     3. After you submit your score, you will be given two options - "Go Back" or "Clear High Scores". See screenshot in (./assets/images/high-scores-page.png)
     If you press "Go Back" it will direct you to the homepage where you can start your quiz again. If you press "Clear High Scores" it will clear all the scores being archived. Refreshing the page will also clear the scores.  
@@ -40,6 +40,6 @@ Once you open up the deployed link, you will arive at the home page with the tit
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ---
